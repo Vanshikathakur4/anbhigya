@@ -236,8 +236,62 @@ height: 110px ;
 padding-top: 40px;
 }
 
+.flex-container{
+    display: flex;
+    position: relative;
+    background-color:rgb(218, 211, 211) ;
+height: 1000px;
+width: 100%;
+}
+ .b1{
+    margin-top: 70px;
+     width: 300px;
+    height: 300px; 
+    margin-left: 50px;
 
+}
+.pub-i{
+    background-image: url("Users/vanshikathakur/Desktop/anbhigya /image/contri.png ") ; 
+    width: 800px;
+     height: 530px;
+}
 
+ .b2{
+    background-color: #8e7f7f;
+    width: 500px;
+    height: 500px;
+     margin-left: 520px;
+    margin-top: 69.9px;
+    height: 530px; 
+} */
+/* .b3{
+    background-color: #301203;
+    width: 300px;
+    height: 10px;
 
+}
+.b4{
+    background-color: #ffbf9f;
+    width: 40px;
+    height: 100px;
+} */ */ */
+.space{
+margin-top: 20px;
+background-color:rgb(218, 211, 211) ;
+
+}
+.space-h{
+    background-color: rgb(218, 211, 211);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 50px;
+    font-family:'lato',sans-serif ;
+    text-align: center;
+    color: #8f4508;
+    font-size: 60px;
+    text-shadow: 3px 1px  rgb(114, 111, 109);
+width: 100%;
+}
 
 
