@@ -232,6 +232,7 @@ box-shadow: #0000;
 background-color: #795b4c;
 border-color:white;
 color: #fde8cd;
+height: 100px;
 }
 
 
@@ -239,7 +240,3 @@ color: #fde8cd;
 
 
 
-@media (max-width: 800px) {
-    .head {
-      flex-direction: column;
-    }}
