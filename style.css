@@ -200,7 +200,10 @@ display: flex;
   scroll-behavior: smooth;
   
 }
-
+#abt-us{
+    width: 100%;
+    background-color: #f9f3f3;
+}
 .abt{
     background-color: #f9f3f3;
     margin-bottom: 0px;
@@ -235,6 +238,9 @@ border-color:white;
 color: #fde8cd;
 height: 110px ; 
 padding-top: 40px;
+}
+#com-sp-id{
+width: 100%;
 }
 
 .flex-container {
