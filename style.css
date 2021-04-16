@@ -20,6 +20,7 @@ position:fixed;
 display: flex;
 margin-top: 0px;
 z-index: 100;
+
 }
 /* @media (max-width: 800px) {
     .head {
@@ -236,24 +237,33 @@ height: 110px ;
 padding-top: 40px;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     position: relative;
     background-color:rgb(218, 211, 211) ;
-height: 1000px;
+height: 650px;
 width: 100%;
 }
  .b1{
     margin-top: 70px;
      width: 300px;
-    height: 300px; 
+    height: 280px; 
     margin-left: 50px;
 
 }
 .pub-i{
-    background-image: url("Users/vanshikathakur/Desktop/anbhigya /image/contri.png ") ; 
-    width: 800px;
-     height: 530px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("image /contri.png") ; 
+    width: 700px;
+     height: 280px;
+     padding: 200px 50px 50px 50px ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-right: 30px;
+     color: white;
+}
+.pub-i:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6) , url("image /contri.png"));
 }
 
  .b2{
@@ -263,23 +273,34 @@ width: 100%;
      margin-left: 520px;
     margin-top: 69.9px;
     height: 530px; 
-} */
-/* .b3{
-    background-color: #301203;
-    width: 300px;
-    height: 10px;
-
+    margin-right: 30px;
+} 
+.b3{
+    background-color: #e9896a;
+    width: 700px;
+    height: 700px;
+margin-left: 51px;
+position: relative;
 }
 .b4{
-    background-color: #ffbf9f;
-    width: 40px;
-    height: 100px;
-} */ */ */
-.space{
+    background-color: #e0a181;
+    width: 700px;
+    height: 700px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)) , url("image /comsp.jpg");
 margin-top: 20px;
 background-color:rgb(218, 211, 211) ;
-
+position: relative;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-left: 7px;
+margin-top: 0px;
+margin-right: 30px;
 }
+.b4:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.6)) , url("image /comsp.jpg");
+}
+
 .space-h{
     background-color: rgb(218, 211, 211);
     margin-bottom: 0px;
@@ -293,5 +314,127 @@ background-color:rgb(218, 211, 211) ;
     text-shadow: 3px 1px  rgb(114, 111, 109);
 width: 100%;
 }
+.btn-pub{
+width: 200px;
+height: 50px;
+padding: 10px 30px 30px 30px;
+background-color: rgb(223, 167, 121);
+border-style:double;
+box-shadow: rgba(255, 255, 255,0.6) 1px 1px 2px 2px ;
+font-family:  'Playfair Display', serif;
+font-size: 20px;
+}
 
+.btn-pub:hover{
+    background-color: rgb(230, 118, 54);
+    cursor: pointer;
+}
+.flex-container2 {
+    background-color:rgb(218, 211, 211) ;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    position: relative;
+}
+.con-i{
+    width: 410px;
+    height: 310px;
+    margin-top: 130px;
+    margin-left: 130px;
+}
+.pic{
+background-image: url("image /pic2.png");
+height: 700px;
+width: 1100px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-left: 200px;
+}
+.slide{
+display: none;
+}
+.meet{
+    width: 700px;
+    height: 360px;
+    margin-top: 170px;
+    margin-left: 200px;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 1100px;
+}
 
+.intro{
+    display: flex;
+    position: relative;
+    margin-left: 300PX;
+    margin-top: 50px;
+    padding-top: 60px;
+}
+.photo-moto{
+    width: 200px;
+    height: 250px;
+
+}
+.founder1{
+    display: flex;
+    margin-right: 70PX;
+    color: white;
+}
+.des{
+    margin-left: 30px;
+}
+.creator{
+    color: white;
+    padding-top: 90px;
+    font-family:'lato',sans-serif ;
+    text-align: center;
+margin-top: 90px;
+    font-size: 60px;
+    text-shadow: 3px 1px  rgb(114, 111, 109);
+width: 100%;
+}
+.line{
+    margin-top: 40px;
+}
+.contact{
+color: white;
+display: flex;
+padding-top: 50px;
+margin-left: 300px;
+margin-right: 70px;
+}
+.insta{
+    display: flex;
+margin-right: 100px;
+margin-left: 10px;
+}
+.detail{
+    margin-left: 30px;
+    padding-top: 20px;
+    margin-right: 70px;
+}
+.insta-pic{
+    width: 140px;
+    height: 130px;
+}
+.con-h{
+    font-size: 25px;
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+}
+.con-h:hover{
+    cursor: pointer;
+}
+ 
+.links{
+    text-decoration: none;
+    color: white;
+}
+.linkz{
+    text-decoration: none;
+    color: inherit;
+}

@@ -21,17 +21,17 @@
 <img src="image /logo.png" class="logo">
 
 <div class="home">
-HOME
+<a class="linkz" href="#HOME">HOME</a>
 </div>
 
 <div class="JOIN">
-JOIN
+    <a class="linkz" href="#joinid">JOIN</a>
  </div>
  <div class="ABOUT">
-    ABOUT US 
+    <a class="linkz" href="#aboutid">ABOUT US </a>
     </div>
     <div class="SPACE">
-        COMMUNITY SPACE 
+        <a class="linkz" href="#com-sp-id"> COMMUNITY SPACE </a>
         </div>
 
 </div> </div>
@@ -82,6 +82,7 @@ JOIN
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div id="HOME">
 <div class="moto">
     <img src="image /moto.png" class="motoi">
 <div class="welcome">
@@ -92,7 +93,8 @@ JOIN
     </div>
 </div>
 </div>
-
+</div>
+<div id="joinid">
 <div class="join-box">
     <div class="joinh">
     <h1 style="font-family:'lato',sans-serif ;">HOW TO JOIN ANBHIGYA ?</h1>
@@ -110,7 +112,8 @@ JOIN
 
 </div>
 </div>
-</div>
+</div></div>
+<div id="aboutid">
 <div id="about-us" style="margin-top: 10px;" style="width: 100%;"
 
 >
@@ -139,46 +142,112 @@ ABOUT US
 </div>
     
 </div>
-</div>
+</div></div>
+<div id="com-sp-id">
 <div class="space">
-    <h1 class="space-h">COMMUNITY SPACE</h1>
+    <h1 class="space-h" id="com-sp-id">COMMUNITY SPACE</h1>
     <div  class="flex-container" style="width: 100%;">
         <div class="b1">
 <div class="pub-i">
 
     <h1>
-        BE THE PART OF COMMUNITY SPACE
+        BE THE PART OF ANBHIGYA'S<BR> COMMUNITY SPACE
     </h1>
-    <P>get your article published on our website </P>
-    <button class="btn-pub"> publish </button> 
+    <P style="font-size: 20PX;">get your article published on our website </P>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScvu6s_aYUV5Eq6EfYgka2N07QereO5PO_tiwXVIg9xqt0XVQ/viewform"><button class="btn-pub">  PUBLISH </button> </a>
      
 </div>
 </div>
+
         <div class="b2">
 
 
         </div>
+        </div>
+        <div class="flex-container2">
         <div class="b3">
 
 
         </div>
         <div class="b4">
-
+<img src="image /logo.png" class="con-i">
 
         </div>
-
-<div>
+</div>
+<div class="pic">
+    <div class="slide-con">
     
+    <div class="slide">
+        <img src="image /c.jpg" class="meet" >
+
+    </div>
+    
+    <div class="slide">
+        <img src="image /b.jpg" class="meet">
+
+    </div>
+    </div>
+    </div>
+    <script>
+   var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slide");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 </div>
 
     </div>
 
 
+</div></div>
+
+<div class="footer">
+    <h1 class="creator">
+        FOUNDERS OF ANBHIGYA
+    </h1>
+    <div class="intro">
+        <div class="founder1">
+<img src="image /h.jpg" class="photo-moto">
+<div class="des"><h1>
+    HRISHIKA THAKUR
+</h1>
+<P>High school student <br> INDIA</P>
+       </div> </div>
+       <div class="founder1">
+        <img src="image /p.jpg" class="photo-moto">
+        <div class="des"><h1>
+            PALAK SHARMA
+        </h1>
+        <P>High school student <br> INDIA</P>
+               </div> </div>
 </div>
+<hr class="line" >
+<div class="contact">
+    <div class="insta">
+        <img src="image /insta.png" class="insta-pic">
+     <div class=detail>   <h2 style="text-align: center;">INSTAGRAM</h2>
+        <UL class="con-h"><LI><a class="links" href="https://www.instagram.com/pal__1008/?igshid=c1ucmgjtt15c>">@pal_1008</a></LI></UL>
+    </div>
+    </div>
+    <div class="insta">
+        <img src="image /mail.png" class="insta-pic">
+     <div class=detail>   <h2 style="text-align: left;">E-MAIL</h2>
+        <UL  class="con-h"><LI >anbhigyacommunity@gmail.com</LI></UL></div>
+    </div>
+    
+</div>
+<hr class="line" >
 
-
-
-
-
+</div>
 </body>
 </html>
