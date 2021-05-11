@@ -444,7 +444,7 @@ margin-left: 10px;
     text-decoration: none;
     color: inherit;
 }
-@media only screen and (max-width:1650){
+@media only screen and (max-width:1226){
     .container{
         flex-direction: column ;
     }
